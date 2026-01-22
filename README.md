@@ -1,4 +1,4 @@
-# ZenSorter v1.2.0 📁✨
+# ZenSorter v1.1.0 📁✨
 
 **ZenSorter** is a safe and modular Python utility designed to automate file organization. It scans your target directory and sorts files into categorized folders based on their extensions.
 It's easy to configure, you don't need to change anything inside the codes, just go to Configurations part of the py and edit, thats it!
