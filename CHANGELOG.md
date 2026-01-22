@@ -16,7 +16,7 @@ All notable changes to the ZenSorter file management system will be documented i
 - Fixed an issue where system-hidden files (like .DS_Store or desktop.ini) would cause sorting errors.
 - Resolved a bug that prevented sorting files with no extensions.
 
-## [1.0.0] - 2026-01-13
+## [1.0.0] - 2026-01-23
 ### Added
 - **Core Automation Engine:** Initial release of the automated file organizer.
 - **Default Categories:** Implemented basic sorting for Images, Documents, and Media.
