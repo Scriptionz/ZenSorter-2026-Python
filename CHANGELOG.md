@@ -2,7 +2,7 @@
 
 All notable changes to the ZenSorter file management system will be documented in this file.
 
-## [1.2.0] - 2026-01-26
+## [1.2.0] - 2026-06-15
 ### Added
 - **🧬 Smart SHA-256 Deduplication:** Introduced cryptographic hashing (`hashlib`) to detect completely identical files (exact twins) regardless of their names, isolating them into a dedicated `Duplicates_Vault`.
 - **📦 Time Capsule Hierarchy:** Added an optional feature to automatically build a subfolder tree organized by `Year/Month` based on the file's last modified timestamp.
