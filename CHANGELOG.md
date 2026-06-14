@@ -2,6 +2,18 @@
 
 All notable changes to the ZenSorter file management system will be documented in this file.
 
+## [1.2.0] - 2026-01-26
+### Added
+- **🧬 Smart SHA-256 Deduplication:** Introduced cryptographic hashing (`hashlib`) to detect completely identical files (exact twins) regardless of their names, isolating them into a dedicated `Duplicates_Vault`.
+- **📦 Time Capsule Hierarchy:** Added an optional feature to automatically build a subfolder tree organized by `Year/Month` based on the file's last modified timestamp.
+- **📡 Zen Watcher Mode:** Implemented a live, real-time background tracking system (`watch_mode`) that continuously monitors the target directory and moves incoming files on the fly.
+- **🎨 Beautiful CLI Dashboard:** Designed an adaptive terminal user interface utilizing ANSI color coding to display status panels, progress states, and execution summaries elegantly.
+
+### Improved
+- **Modern Architecture Migration:** Fully deprecated the old `os` / `os.path` methods and migrated the entire codebase to modern `pathlib.Path` structures for true cross-platform stability.
+- **Collision Counter Logic:** Enhanced the unique path generator by combining both a `timestamp` and an incremental `counter` to completely eliminate the risk of naming collisions during rapid executions.
+- **Safe Directory Allocation:** Optimized folder creation logic; the engine now safely checks and generates target folders only when a file transfer is actively verified.
+
 ## [1.1.0] - 2026-01-23
 ### Added
 - **Dynamic Categorization:** Added new rules for sorting 'Programming' files (.py, .js, .cpp).
