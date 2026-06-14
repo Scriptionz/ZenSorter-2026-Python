@@ -1,4 +1,4 @@
-# ZenSorter v16.0 📁✨
+# ZenSorter v1.2.0 📁✨
 
 ZenSorter is a safe, ultra-fast, and modular Python utility designed to achieve ultimate digital peace by automating file organization. It scans your messy target directory, handles duplication with cryptographic precision, and brings total order. 
 
